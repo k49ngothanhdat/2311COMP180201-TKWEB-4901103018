@@ -1,0 +1,57 @@
+body {
+    background-color: antiquewhite;
+    font-family: system-ui ;
+}
+.container-fluid {
+    background-color: rgb(186, 253, 166);
+    max-width: 100%;
+    width: 900px;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+    
+    display: grid;
+    grid-template-columns: 40% 60%;
+    row-gap: 30px;
+    
+}
+.anhdaidien img {
+    width: 200px;
+    height: auto;
+    border-radius: 40px;
+    object-fit: cover;
+}
+.anhdaidien {
+    display: flex;
+    justify-content: center;
+    
+}
+.name i {
+    font-size: 40px;
+}
+.name {
+    border: 10px solid black;
+    padding-left: 50px;
+}
+.introduc {
+    font-style: italic;
+    
+}
+.EXPERIENCE {
+    padding-left: 50px;
+}
+.EXPERIENCE p {
+    font-style: italic;
+}
+.hobbise  {
+    padding-left: 50px;
+}
+.skill div {
+    border-bottom: 5px dashed red;
+}
+#html {
+    margin-right: 350px;
+}
+#css {
+    margin-right: 380px;
+}
